@@ -8,8 +8,6 @@ const app = express();
 
 const initizeServer = (port) => {
   const server = app.listen(port, () => {
-    debug("Hola chicas, estoy aqui!");
-
     server.on("error", (error) => {
       debug(chalk.red("There is a problem with your server"));
       if (error.code === "EADDRINUSE") {
