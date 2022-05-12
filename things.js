@@ -2,23 +2,23 @@ require("dotenv").config();
 
 const things = [
   {
-    id: 1,
+    id: "1",
     thing: "frontend",
   },
   {
-    id: 2,
+    id: "2",
     thing: "testing",
   },
   {
-    id: 3,
+    id: "3",
     thing: "Redux-Flux",
   },
   {
-    id: 4,
+    id: "4",
     thing: "Classes",
   },
   {
-    id: 5,
+    id: "5",
     thing: "Sass",
   },
 ];
