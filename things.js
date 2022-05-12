@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const thingsIKnow = [
+const things = [
   {
     id: 1,
     thing: "frontend",
@@ -23,4 +23,4 @@ const thingsIKnow = [
   },
 ];
 
-module.exports = thingsIKnow;
+module.exports = things;

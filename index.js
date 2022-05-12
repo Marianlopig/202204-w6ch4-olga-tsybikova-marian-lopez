@@ -1,11 +1,5 @@
-require("dotenv").config();
-const express = require("express");
+const initizeServer = require("./server");
 
-const app = express();
-const port = process.env.SERVER_PORT;
+const port = process.env.SERVER_PORT || 4000;
 
-app.listen(port, () => {
-  debug("Hola chicas, estoy aqui!");
-});
-
-module.exports = port;
+initizeServer(port);
